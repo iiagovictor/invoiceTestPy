@@ -20,8 +20,6 @@ class Invoice:
       self.preco = 0 if preco < 0 else preco 
     else:
       raise Exception('O "preço" deve ser do tipo int ou float.')
-    
-    print('Fatura criada com sucesso!')
 
    #Calcula o valor da fatura (multiplica a quantidade pelo preço por item) e depois retorna o valor como um double
   def getInvoiceAmount(self):
